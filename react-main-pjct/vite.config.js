@@ -6,7 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server:{
     host:"0.0.0.0",
-    port:5000,
     allowedHost:["react-e37l.onrender.com"]
   }
 })
